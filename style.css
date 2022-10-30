@@ -360,7 +360,7 @@ header p {
   box-shadow: 5px 5px 5px 10px rgb(66, 56, 119);
 }
 .assignment-card-graphics-1 {
-  background-image: url(assets/home_fonts_components.png);
+  background-image: url(assets/rufus_vin_home.png);
   min-height: 360px;
   overflow: hidden;
   background-position: center;
@@ -437,13 +437,15 @@ header p {
 
 .images-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   gap: 1rem;
 }
 
-.images-wrapper :nth-of-type(3) {
-  grid-column: 1/3;
+.images-wrapper-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .assignment-pages-image {
@@ -511,7 +513,6 @@ header p {
   header {
     flex-direction: column;
     padding: 2.5rem;
-    min-height: 65vh;
   }
 
   header h1 {
